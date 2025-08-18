@@ -1,12 +1,13 @@
 "use client"
 
-import { motion } from 'framer-motion'
-import Image from 'next/image'
-import React from 'react'
+import { motion } from "framer-motion"
+import Image from "next/image"
 
-const LandingPage = () => {
+
+
+const HeroSection = () => {
   return (
-    <div className='lg:flex items-start'>
+    <div className='lg:flex items-center md:py-10'>
         <motion.section
         initial={{
             opacity : 0,
@@ -16,7 +17,7 @@ const LandingPage = () => {
             opacity : 1,
             y : 0
         }}
-        className='lg:flex-1'
+        className='lg:flex-1 relative lg:bottom-20'
         >
             <h1 className='font-bold text-3xl mt-10 mb-4 md:text-4xl'>Drive Your Way, <span className='text-secondary'>Anytime, Anywhere</span></h1>
             <p className='md:text-xl'>Affordable car rentals with flexible options. Choose from a wide range of vehicles that fit your journey. Whether for business, family, or adventure.</p>
@@ -35,7 +36,7 @@ const LandingPage = () => {
             duration : 1,
             ease : "backInOut"
         }}
-        className='relative aspect-[3/2] w-80 mx-auto md:w-96 lg:flex-1'>
+        className='relative aspect-[3/2] w-80 mx-auto md:w-[500px] lg:flex-1 '>
             <Image src={"/assets/img/car.png"} alt='Car' fill 
             sizes='50vw'/>
         </motion.div>
@@ -43,4 +44,4 @@ const LandingPage = () => {
   )
 }
 
-export default LandingPage
+export default HeroSection
