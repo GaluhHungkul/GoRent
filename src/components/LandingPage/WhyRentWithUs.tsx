@@ -22,7 +22,7 @@ const WhyRentWithUs = () => {
     transition={{
       duration : .4
     }}
-    className='mt-20 min-h-96 md:mt-28'>
+    className='mt-20 lg:pb-10 md:mt-28 '>
         <h1 className='text-center font-bold text-2xl md:text-3xl'><span className='text-secondary'>Why Rent</span> with Us?</h1>
         <ul className='grid md:grid-cols-2 mt-10 gap-y-6 gap-x-4 lg:grid-cols-4'>
            {WhyRentWithUsPoints.map(({content, icon},i) => (

@@ -1,5 +1,6 @@
 import HeroSection from './HeroSection'
 import ListCars from './ListCars'
+import Testimonials from './Testimonials'
 import WhyChooseUs from './WhyRentWithUs'
 
 const LandingPage = () => {
@@ -8,6 +9,7 @@ const LandingPage = () => {
         <HeroSection />
         <WhyChooseUs />
         <ListCars />
+        <Testimonials />
     </div>
   )
 }

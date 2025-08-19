@@ -3,7 +3,7 @@
 import { Cars } from "@/lib/data/Cars"
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Swiper as SwiperClass } from "swiper/types"
 import 'swiper/css';
@@ -25,7 +25,14 @@ const ListCars = () => {
 
     const swiperRef = useRef<SwiperClass | null >(null)
     const [currCar, setCurrCar] = useState<Car | null>(Cars[0])
+    const [mounted, setMounted] = useState(false)
     
+    useEffect(() => {
+        setMounted(true)
+    },[])
+
+    if(!mounted) return null
+
     const highestPrice = Cars.sort((a,b) => b.pricePerDay - a.pricePerDay)[0].pricePerDay
 
     const listsTransmision = [...new Set(Cars.map(car => car.transmission))]
@@ -41,7 +48,7 @@ const ListCars = () => {
     };
 
   return (
-    <div className='my-20  min-h-[600px] md:mt-28'>
+    <div className='my-20  min-h-[600px] md:my-28 md:pb-10'>
         <motion.h1 
         initial={{
             opacity : 0,
@@ -73,7 +80,7 @@ const ListCars = () => {
         }}
         viewport={{
             once : true,
-            amount : .8
+            amount : .4
         }} 
         className="md:flex md:items-start lg:items-center md:gap-16"
         >
