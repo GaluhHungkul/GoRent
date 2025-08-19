@@ -6,7 +6,7 @@ export const Cars = [
     year: 2022,
     transmission: "Automatic",
     fuel: "Petrol",
-    image: "https://example.com/images/toyota-avanza.jpg",
+    image: "/assets/img/avanza.png", // dari sumber resmi Toyot​a 
     pricePerDay: 350000
   },
   {
@@ -16,7 +16,7 @@ export const Cars = [
     year: 2021,
     transmission: "Automatic",
     fuel: "Petrol",
-    image: "https://example.com/images/honda-jazz.jpg",
+    image: "/assets/img/jazz.png", // tampilan Honda Jazz/Fit 
     pricePerDay: 400000
   },
   {
@@ -26,7 +26,7 @@ export const Cars = [
     year: 2023,
     transmission: "Automatic",
     fuel: "Diesel",
-    image: "https://example.com/images/mitsubishi-pajero.jpg",
+    image: "/assets/img/pajero_sport.webp", // placeholder mirip SUV 
     pricePerDay: 750000
   },
   {
@@ -36,7 +36,7 @@ export const Cars = [
     year: 2020,
     transmission: "Manual",
     fuel: "Petrol",
-    image: "https://example.com/images/daihatsu-xenia.jpg",
+    image: "/assets/img/xenia.png", // foto Avanza silver bisa mewakili Xenia 
     pricePerDay: 300000
   },
   {
@@ -46,7 +46,7 @@ export const Cars = [
     year: 2021,
     transmission: "Automatic",
     fuel: "Hybrid",
-    image: "https://example.com/images/suzuki-ertiga.jpg",
+    image: "/assets/img/suzuki_ertiga.webp", // ganti sesuai sumber Ertiga jika ada
     pricePerDay: 450000
   },
   {
@@ -56,7 +56,7 @@ export const Cars = [
     year: 2023,
     transmission: "Automatic",
     fuel: "Diesel",
-    image: "https://example.com/images/toyota-fortuner.jpg",
+    image: "/assets/img/fortuner.png", // ganti dengan foto Fortuner
     pricePerDay: 800000
   }
-]
+];

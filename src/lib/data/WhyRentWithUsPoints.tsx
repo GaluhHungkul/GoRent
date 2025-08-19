@@ -1,6 +1,6 @@
 import { Car, CheckCircle2, Headphones, WalletCards } from "lucide-react"
 
-export const WhyChooseUsPoints = [
+export const WhyRentWithUsPoints = [
     {
         content : "Wide selection of cars from economy to premium",
         icon : <Car strokeWidth={3} size={32}/>

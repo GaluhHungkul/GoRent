@@ -1,11 +1,13 @@
 import HeroSection from './HeroSection'
-import WhyChooseUs from './WhyChooseUs'
+import ListCars from './ListCars'
+import WhyChooseUs from './WhyRentWithUs'
 
 const LandingPage = () => {
   return (
     <div>
         <HeroSection />
         <WhyChooseUs />
+        <ListCars />
     </div>
   )
 }
