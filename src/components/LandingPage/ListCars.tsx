@@ -48,7 +48,7 @@ const ListCars = () => {
     };
 
   return (
-    <div className='my-20  min-h-[600px] md:my-28 md:pb-10'>
+    <div className='my-20 min-h-[600px] md:mt-28 '>
         <motion.h1 
         initial={{
             opacity : 0,

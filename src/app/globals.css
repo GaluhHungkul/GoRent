@@ -5,7 +5,7 @@
   --foreground: #171717;
   --primary : white;
   --secondary : orange;
-  --tertiary : black;
+  --tertiary : rgb(16, 9, 83);
 }
 
 @theme inline {

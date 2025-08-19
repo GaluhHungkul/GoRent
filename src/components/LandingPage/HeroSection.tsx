@@ -21,7 +21,7 @@ const HeroSection = () => {
         >
             <h1 className='font-bold text-3xl mt-10 mb-4 md:text-4xl'>Drive Your Way, <span className='text-secondary'>Anytime, Anywhere</span></h1>
             <p className='md:text-xl'>Affordable car rentals with flexible options. Choose from a wide range of vehicles that fit your journey. Whether for business, family, or adventure.</p>
-            <button onClick={() => alert("Booked")} className='bg-secondary cursor-pointer mt-5 mb-3 rounded px-4 py-2 text-primary font-bold duration-200 hover:brightness-90 md:px-6 md:py-3 md:text-xl'>Book now</button>
+            <button className='bg-secondary cursor-pointer mt-5 mb-3 rounded px-4 py-2 text-primary font-bold duration-200 hover:brightness-90 md:px-6 md:py-3 md:text-xl'>Book now</button>
         </motion.section>
         <motion.div 
         initial={{

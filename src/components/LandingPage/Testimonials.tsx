@@ -66,10 +66,10 @@ const Testimonials = () => {
                         <div className="relative size-14 rounded-full overflow-hidden flex">
                             <Image src={val.image} alt={val.name} fill sizes="20vw" className="object-cover object-center"/>
                         </div>
-                        <p className="font-bold text-xl ">{val.name}</p>
+                        <p className="font-bold text-xl"><span className="text-secondary">{val.name.split(" ")[0]} </span>{val.name.split(" ").filter((_,i) => i !== 0)}</p>
                     </section>
                     <section>
-                        <p>{val.comment}</p>
+                        <p className="text-black">{val.comment}</p>
                     </section>
                 </motion.div>
             ))}
