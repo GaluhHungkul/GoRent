@@ -48,7 +48,7 @@ const ListCars = () => {
     };
 
   return (
-    <div className='my-20 min-h-[600px] md:mt-28 '>
+    <div className='my-20 min-h-[600px] md:mt-28 scroll-mt-6' id="listCars">
         <motion.h1 
         initial={{
             opacity : 0,

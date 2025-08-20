@@ -7,9 +7,10 @@ import { motion } from 'framer-motion'
 const WhyRentWithUs = () => {
   return (
     <motion.div 
+    id='whyRentWithUs'
     initial={{
       opacity : 0,
-      x : 200
+      x : 20
     }}
     whileInView={{
       opacity : 1,
@@ -22,7 +23,7 @@ const WhyRentWithUs = () => {
     transition={{
       duration : .4
     }}
-    className='mt-20 lg:pb-10 md:mt-28 '>
+    className='mt-20 lg:pb-10 md:mt-28 lg:mt-38 scroll-mt-6'>
         <h1 className='text-center font-bold text-2xl md:text-3xl'><span className='text-secondary'>Why Rent</span> with Us?</h1>
         <ul className='grid md:grid-cols-2 mt-10 gap-y-6 gap-x-4 lg:grid-cols-4'>
            {WhyRentWithUsPoints.map(({content, icon},i) => (

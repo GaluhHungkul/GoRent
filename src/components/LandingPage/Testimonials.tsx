@@ -32,7 +32,7 @@ const Testimonials = () => {
     }
 
   return (
-    <div className="min-h-80 mb-20">
+    <div className="min-h-80 mb-20 scroll-mt-6" id="hearFromOurClients">
          <motion.h1 
         initial={{
             opacity : 0,

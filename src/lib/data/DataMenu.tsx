@@ -1,4 +1,4 @@
-import { Car, Contact, Home } from "lucide-react";
+import { Car, Home, Star, Users } from "lucide-react";
 
 export const DataMenu = [
     {
@@ -7,13 +7,18 @@ export const DataMenu = [
         icon : <Home size={28}/>
     },
     {
-        name : "Car List",
-        href : "/",
+        name : "Why Us",
+        href : "#whyRentWithUs",
+        icon : <Star fill="white" size={28}/>
+    },
+    {
+        name : "List Car",
+        href : "#listCars",
         icon : <Car size={28}/>
     },
     {
-        name : "Contact",
-        href : "/",
-        icon : <Contact size={28}/>
+        name : "Testimonials",
+        href : "#hearFromOurClients",
+        icon : <Users size={28}/>
     },
 ]

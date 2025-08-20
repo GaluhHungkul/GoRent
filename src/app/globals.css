@@ -25,6 +25,11 @@
   }
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
+
 body {
   background: var(--primary);
   color: var(--tertiary);

@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-tertiary text-primary  w-screen relative right-10 lg:right-20">
-      <div className=" mx-auto px-10 lg:px-20 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-28 lg:grid-cols-3">
+    <footer className="bg-tertiary text-primary w-screen relative right-10 lg:right-20">
+      <div className=" mx-auto px-10 lg:px-20 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-28 lg:grid-cols-3 lg:py-20">
         <div>
           <h1 className='font-bold text-xl md:text-3xl'>Go<span className='text-secondary'>Rent</span></h1>
           <p className="mt-3 text-sm md:text-base">
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t border-gray-700 text-center py-4 text-sm md:text-base">
+      <div className="border-t border-gray-700 text-center py-4 text-sm md:text-base lg:py-6">
         © {new Date().getFullYear()} CarRental. All rights reserved.
       </div>
     </footer>

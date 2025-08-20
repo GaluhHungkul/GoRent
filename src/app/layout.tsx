@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} px-10 lg:px-20 overflow-x-hidden`}>
+      <body className={`${geistSans.variable} relative pt-16 md:pt-20 ${geistMono.variable} px-10 lg:px-20 overflow-x-hidden`}>
         <Navbar />
         {children}
         <Footer />
