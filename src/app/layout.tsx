@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GoRent",
   description: "A modern car rental web application built with Next.js.",
+  icons : {
+    icon : "/logo.svg"
+  }
 };
 
 export default function RootLayout({
