@@ -1,4 +1,3 @@
-import CTA from './CTA'
 import HeroSection from './HeroSection'
 import ListCars from './ListCars'
 import Testimonials from './Testimonials'
@@ -11,7 +10,6 @@ const LandingPage = () => {
         <WhyChooseUs />
         <ListCars />
         <Testimonials />
-        <CTA />
     </div>
   )
 }

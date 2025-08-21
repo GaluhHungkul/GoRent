@@ -3,7 +3,7 @@ import { Car, Home, Star, Users } from "lucide-react";
 export const DataMenu = [
     {
         name : "Home",
-        href : "/",
+        href : "#top",
         icon : <Home size={28}/>
     },
     {

@@ -7,7 +7,7 @@ import Image from "next/image"
 
 const HeroSection = () => {
   return (
-    <div className='lg:flex items-center md:py-10 '>
+    <div className='lg:flex items-center md:py-10' id="top">
         <motion.section
         initial={{
             opacity : 0,
